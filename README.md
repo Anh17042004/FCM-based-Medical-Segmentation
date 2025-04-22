@@ -28,12 +28,12 @@ File này chứa phiên bản song song (parallel) của thuật toán Fuzzy C-M
 
 **Cách sử dụng:**
 ```bash
-mpiexec -n <số_processes> python MPI-parrallel.py [đường_dẫn_ảnh]
+mpiexec -n <số_processes> python MPI-parrallel.py 
 ```
 
 Ví dụ:
 ```bash
-mpiexec -n 4 python MPI-parrallel.py E://HPC//Brain//542x630.jpg
+mpiexec -n 4 python MPI-parrallel.py
 ```
 
 ## So sánh hai phiên bản
